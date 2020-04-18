@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <img src="logo.png" alt="Logo_EPAM">
+        <div id="content" role="main">
+          <section>
+            <a id="home"></a>
+            <h1>HTML BASICS</h1>
+            <nav>
+              <a class="page-link" href="#home"><b>Home</b></a>
+              <a class="page-link" href="#headings"><b>Headings</b></a>
+              <a class="page-link" href="#table"><b>Table</b></a>
+              <a class="page-link" href="#lists"><b>Types of lists</b></a>
+              <a class="page-link" href="#textFormats"><b>Text formats</b></a>
+              <a class="page-link" href="#blockquotes"><b>Blockquotes</b></a>
+              <a class="page-link" href="#registration"><b>Registration</b></a>
+            </nav>
+            <hr>
+            <article>
+              <b>Fructose</b>, or
+              <b>fruit sugar</b>, is a simple
+              ketonic monosaccharide found in many plants, where it is often bonded to glucose to form the disaccharide
+              sucrose.
+              It is one of the three dietary
+              <u>monosaccharides</u>, along with glucose and galactose, that are absorbed directly into blood during
+              digestion.
+              Its formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and its density is 1.694 g/cm<sup>3</sup> .
+              Fructose was discovered by French chemist
+              <a href="#">Augustin-Pierre Dubrunfaut</a> in
+              <ins>1847</ins>, <del>not in 1846</del>.
+            </article>
+            <br>
+            <article>
+              It makes us <b>strong</b>!
+              This is emphasized.
+            </article>
+            <br>
+            <article>Excessive consumption of fructose (especially from sugar-sweetened beverages) may contribute to
+              insulin
+              resistance,
+              obesity, elevated <abbr title="Low-density lipoprotein">LDL</abbr> cholesterol and triglycerides, leading
+              to metabolic syndrome.
+              <abbr title="European Food Safety Authority">The EFSA</abbr> stated that
+              fructose may be preferable over sucrose and
+              glucose in
+              sugar-sweetened foods and beverages because of its lower effect on postprandial blood sugar levels, and
+              noted that
+              high intakes of fructose may lead to metabolic complications such as dyslipidaemia, insulin resistance,
+              and
+              increased
+              visceral adiposity (this is a citation).
+            </article>
+          </section>
+          <section>
+            <a id="headings"></a>
+            <hr>
+            <p>
+              h1 defines the most important heading. h6 defines the least important heading. Font-size for h1 is the
+              same
+              as font-size
+              for h2, because we have to use only one h1 on the page, and it is commonly used inside header
+            </p>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+          </section>
+          <section>
+            <a id="table"></a>
+            <hr>
+            <h2>Sugar content of selected common plant foods (g/100g)</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Food item</td>
+                  <td>Free Fructose</td>
+                  <td>Free Glucose</td>
+                </tr>
+                <tr>
+                  <td>Apple</td>
+                  <td>5.9</td>
+                  <td>2.4</td>
+                </tr>
+                <tr>
+                  <td>Banana</td>
+                  <td>4.9</td>
+                  <td>5.0</td>
+                </tr>
+                <tr>
+                  <td>Grapes</td>
+                  <td>8.1</td>
+                  <td>7.2</td>
+                </tr>
+                <tr>
+                  <td>Pineapple</td>
+                  <td>2.1</td>
+                  <td>1.7</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section>
+            <a id="lists"></a>
+            <hr>
+            <h3>Unordered Shopping List</h3>
+            <ul>
+              <li>Fruits:
+                <ul>
+                  <li>Bananas</li>
+                  <li>Apples</li>
+                  <li>Peaches</li>
+                </ul>
+              </li>
+              <li>Vegetables:
+                <ul>
+                  <li>Carrots</li>
+                  <li>Cucumbers</li>
+                  <li>Beetroot</li>
+                </ul>
+              </li>
+              <li>Milk</li>
+              <li>Butter</li>
+            </ul>
+
+            <h3>Ordered To-do List</h3>
+            <ol>
+              <li>Wash your hands</li>
+              <li>Clean your apartment</li>
+              <li>Do your homework
+                <ol>
+                  <li>Create HTML Page</li>
+                  <li>Check all requirements & folder structure</li>
+                  <li>Upload to GitHub</li>
+                </ol>
+              </li>
+            </ol>
+
+            <h3>Definition List</h3>
+            <dl>
+              <dt>HTML</dt>
+              <dd>
+                HTML is the standard markup language to create Web pages.
+              </dd>
+              <dt>CSS</dt>
+              <dd>
+                CSS describes how HTML elements are to be displayed.
+              </dd>
+              <dt>JavaScript</dt>
+              <dd>
+                JavaScript is a scripting languages, primarily used on the Web.
+              </dd>
+            </dl>
+          </section>
+          <section>
+            <a id="textFormats"></a>
+            <hr>
+            <h2>Text formats</h2>
+            <h3>Preformatted Text</h3>
+            <pre>Text
+in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both spaces and
+line breaks
+          </pre>
+
+            <h3>This is code</h3>
+            <pre>
+              <code>
+.flex {
+  display: flex;
+  justify-content: justify;
+  aliign-items: center;
+}
+              </code>
+          </pre>
+          </section>
+          <section>
+            <a id="blockquotes"></a>
+            <h2>Blockquotes</h2>
+            <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the
+              citation.</p>
+            <blockquote>
+              <p>
+                "So if you want to go fast, if you want to get done quickly, if you want your code to be easy to
+                write, make it easy to
+                read."
+              </p>
+              <cite><a href="#">C. Martin (Uncle Bob)</a></cite>
+            </blockquote>
+          </section>
+          <section>
+            <a id="registration"></a>
+            <hr>
+            <form method="POST" action="#">
+              <fieldset>
+                <label>Name:<input type="text"></label>
+              </fieldset>
+              <fieldset>
+                <label>Email:<input type="email"></label>
+              </fieldset>
+              <fieldset>
+                <label>Password:<input type="password"></label>
+              </fieldset>
+              <fieldset>
+                <label>Select Programming Language
+                  <select>
+                    <option>JavaScript</option>
+                    <option>.Net</option>
+                    <option>Java</option>
+                  </select>
+                </label>
+              </fieldset>
+              <fieldset>
+                <textarea id="respond">
+                </textarea>
+              </fieldset>
+              <fieldset>
+                <button type="submit">Submit</button>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
