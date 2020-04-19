@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  background: #21232e; }
+
+header {
+  background-image: url(../img/m-h-night.jpg);
+  height: 750px;
+  background-size: 100% 100%;
+  border-bottom-right-radius: 40%;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.header-wrap {
+  padding-left: 150px; }
+
+.landing-logo, .footer_logo {
+  display: flex;
+  align-items: center;
+  color: #fff; }
+  .landing-logo p, .footer_logo p {
+    padding-left: 10px;
+    text-align: center;
+    height: 35px;
+    line-height: 20px;
+    font-family: "Fresca", sans-serif;
+    font-weight: 600;
+    font-size: 26px; }
+    .landing-logo p span, .footer_logo p span {
+      display: flex;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 11px; }
+
+.header_heading {
+  width: 600px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  z-index: 3;
+  margin: 10px 0px;
+  color: #fff; }
+  .header_heading::before {
+    position: absolute;
+    content: '';
+    background: #ff4e33;
+    width: 340px;
+    height: 50px;
+    z-index: -1;
+    margin-top: 135px; }
+
+.header_text {
+  width: 650px;
+  color: #c0c3af;
+  font-size: 19px;
+  margin: 0;
+  font-family: "Fresca", sans-serif; }
+
+.header_button {
+  margin-top: 50px;
+  background: #e3ac00;
+  border: none;
+  color: #fff;
+  min-width: 135px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold; }
+
+.login {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  padding-left: 150px;
+  color: #fff; }
+
+.section_text {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+  z-index: 3; }
+  .section_text::before {
+    content: '';
+    background: #ff4e33;
+    width: 185px;
+    height: 45px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 210px; }
+
+main div {
+  width: 55vw;
+  margin: 0 auto; }
+  main div:nth-of-type(2) img {
+    width: 510px; }
+  main div:nth-of-type(3) img {
+    width: 600px; }
+
+.section_card {
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background-color: #3b3f50;
+  display: flex;
+  justify-content: center; }
+  .section_card img {
+    margin: 15px;
+    width: 550px;
+    border-radius: 5px; }
+
+.section_card_right_container {
+  padding: 10px 50px 35px;
+  text-align: center; }
+
+.section_card_heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff; }
+
+.section_card_text, .section_banner_text, .footer_text, .footer-cr {
+  font-family: "Fresca", sans-serif;
+  font-size: 15px;
+  color: #c0c3af;
+  text-align: justify;
+  margin-top: 0; }
+
+.section_link {
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  color: #c0c3af; }
+
+.section_banner {
+  background: linear-gradient(to right, #e3ac00, #ff4e33);
+  border-radius: 5px;
+  margin-top: 110px;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-left: 20vw;
+  position: absolute; }
+
+.section_banner_heading {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin: 10px 0px;
+  padding: 15px 0px;
+  position: relative;
+  z-index: 3;
+  color: #fff; }
+  .section_banner_heading::before {
+    position: absolute;
+    background: #ff4e33;
+    content: '';
+    z-index: -1;
+    width: 60px;
+    height: 30px;
+    margin-left: 113px; }
+
+.section_banner_text_wrap {
+  padding-left: 100px; }
+
+.section_banner_button {
+  background: #e3ac00;
+  border: none;
+  color: #fff;
+  min-width: 135px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 80px; }
+
+.footer-wrap {
+  background: #3b3f50;
+  position: relative;
+  z-index: -1;
+  margin-top: 200px;
+  height: 180px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 15px; }
+
+.footer_logo {
+  color: #c0c3af; }
+
+.footer_text {
+  width: 315px; }
+
+.footer-cr {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px; }
