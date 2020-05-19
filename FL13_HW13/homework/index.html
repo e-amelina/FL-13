@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap and BEM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header col-12 d-flex flex-wrap justify-content-center mx-0 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light col-10">
+            <a class="navbar-brand h1" href="#">Games</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link  text-body" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-body" href="#">Features</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  text-body" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-body disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <button class=" btn btn-dark d-none d-lg-inline-block rounded-0">
+                    Push to Start
+                </button>
+            </div>
+
+        </nav>
+
+        <div class="hero-section  d-flex flex-row-reverse align-items-center justify-content-center flex-wrap 
+            col-10 px-0">
+            <img src='assets/hero-5.jpg' alt='img-hero' class="hero-section__image col-sm-12 col-md-12 col-lg-7">
+            <div class="col-lg-5 col-sm-12 col-md-12 ">
+                <h1>Front-end Lab CSS-Frameworks</h1>
+                <p class="hero-section__description ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aenean
+                    commodo ligula eget dolor. Aenean
+                    massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <button class="hero-section__button btn btn-dark border-0 ">Find
+                    Out More</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dark-games-section container col-12 mx-0 pt-4 px-md-4 bg-dark text-light">
+            <h2 class="dark-games-section__header text-center">Games section</h2>
+            <p class="dark-games-section__description text-center px-4 mx-3 pb-5 mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+            </p>
+            <div class="dark-games-section__games-cards row mx-lg-5">
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/1.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/2.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/3.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/4.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/5.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-6 col-lg-4 px-3">
+                    <img src='assets/6.jpg' alt="game-card" class="game-card__image px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="light-games-section container col-12 pt-4 px-md-4 bg-light text-body">
+            <h2 class="light-games-section__title text-center">Games section</h2>
+            <p class="light-games-section__description text-center px-4 mx-3 mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <div class="light-games-section__games-cards row mx-lg-5">
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/7.jpg' alt="game-card" class="game-card__image shadow px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/8.jpg' alt="game-card" class="game-card__image shadow px-0 container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/9.jpg' alt="game-card" class="game-card__image shadow px-0  container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/10.jpg' alt="game-card" class="game-card__image shadow px-0  container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/11.jpg' alt="game-card" class="game-card__image shadow px-0  container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="game-card container col-sm-12 col-md-12 col-lg-6 px-3">
+                    <img src='assets/12.jpg' alt="game-card" class="game-card__image shadow px-0  container-fluid mt-4">
+                    <h6 class="game-card__title text-center pt-3">Card title</h6>
+                    <p class="game-card__description text-center px-4 mx-3 mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="site-footer col-12 bg-dark d-flex flex-wrap justify-content-center text-light">
+        <div class="site-footer__content container col-12 d-flex  flex-wrap mx-0 pt-5">
+            <div class="site-footer__context col-lg-6 pr-lg-3 pl-lg-5">
+                <p class="site-footer__title">Subscribe</p>
+                <p class="site-footer__subscribe">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean commodo ligula eget dolor.
+                </p>
+            </div>
+            <form class="site-footer__form col-lg-6 pl-lg-3 pr-lg-5">
+                <input class="form-control col" type="search" placeholder="Email Address">
+                <button class="btn footer__button  text-light my-2  col" type="submit">Subscribe</button>
+            </form>
+            <p class="site-footer__corporation pt-5 pb-4 col-12 text-center">
+                ©2020 Front-end Lab
+            </p>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
